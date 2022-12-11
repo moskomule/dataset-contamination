@@ -4,7 +4,7 @@ This repository will contain the link to datasets (SD-ImageNet and SD-COCO) of [
 
 ## Datasets
 
-The link to the datasets (SD-ImageNet and SD-COCO) can be downloaded from [this repository](https://dmsgrdm.riken.jp/c24kn/).
+The datasets (SD-ImageNet and SD-COCO) can be downloaded from [this repository](https://dmsgrdm.riken.jp/c24kn/).
 Before downloading them, check the LICENSE (CreativeML Open RAIL-M).
 
 ## Citation
