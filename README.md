@@ -1,6 +1,6 @@
 # dataset-contamination
 
-This repository will contain the link to datasets (SD-ImageNet and SD-COCO) of [our paper](https://arxiv.org/abs/2211.08095).
+This repository contains the link to datasets (SD-ImageNet and SD-COCO) of [our paper](https://arxiv.org/abs/2211.08095).
 
 ## Datasets
 
