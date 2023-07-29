@@ -10,12 +10,10 @@ Before downloading them, check the LICENSE (CreativeML Open RAIL-M).
 ## Citation
 
 ```bibtex
-@misc{hataya2022contamination,
-  doi = {10.48550/ARXIV.2211.08095},
-  url = {https://arxiv.org/abs/2211.08095},
+@inproceedings{hataya2023contamination,
   author = {Hataya, Ryuichiro and Bao, Han and Arai, Hiromi},
   title = {Will Large-scale Generative Models Corrupt Future Datasets?},
-  publisher = {arXiv},
-  year = {2022},
+  booktitle = {ICCV},
+  year = {2023},
 }
 ```
