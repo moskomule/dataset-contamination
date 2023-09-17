@@ -1,4 +1,4 @@
-# Will Large-scale Generative Models Corrupt Future Datasets?
+# [Will Large-scale Generative Models Corrupt Future Datasets?](https://arxiv.org/abs/2211.08095)
 
 ## Abstract
 
