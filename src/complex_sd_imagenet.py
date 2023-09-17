@@ -2,7 +2,6 @@ import argparse
 import os
 import pathlib
 import random
-from contextlib import nullcontext
 
 import numpy as np
 import torch
@@ -10,7 +9,6 @@ from ldm.models.diffusion.ddim import DDIMSampler
 from ldm.models.diffusion.plms import PLMSSampler
 from ldm.util import instantiate_from_config
 from omegaconf import OmegaConf
-from torch import autocast
 from torch.multiprocessing import cpu_count, spawn
 from torchvision.io import write_png
 from tqdm import trange
@@ -76,8 +74,6 @@ def _main(opt, model, sampler, rank):
     base_count = len(os.listdir(sample_path))
 
     start_code = None
-
-    precision_scope = autocast if opt.precision == "autocast" else nullcontext
 
     outer_loop = trange(opt.n_iter, desc="Sampling") if rank == 0 else range(opt.n_iter)
     with model.ema_scope():
